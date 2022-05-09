@@ -1,2 +1,2 @@
-# Desafio de projeto sobre Git/Github DIO
-Repositório criado para desafios de projeto DIO
+# Portfólio de estudos de programação
+Aqui você vai encontrar projetos que eu desenvolvi na faculdade e em cursos livres
