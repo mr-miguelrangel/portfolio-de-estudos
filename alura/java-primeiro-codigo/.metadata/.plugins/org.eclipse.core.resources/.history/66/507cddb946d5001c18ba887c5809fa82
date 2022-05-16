@@ -1,0 +1,14 @@
+// Utilize um laço do tipo for para imprimir todos os múltiplos de 3, entre 1 e 100.
+public class DesafioMultiplosDe3 {
+	public static void main(String[] args) {
+		
+		int amostra = 0;
+		while (amostra <= 100) {
+			if (amostra % 3 == 0) {
+				System.out.println(amostra);
+			}
+			
+			amostra++;
+		}
+	}
+}

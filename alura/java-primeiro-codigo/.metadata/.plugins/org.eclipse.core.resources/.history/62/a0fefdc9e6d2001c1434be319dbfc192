@@ -1,0 +1,10 @@
+
+public class TestaCaracteres {
+
+	public static void main(String[] args) {
+		
+		cha letra = 'a';
+		System.out.println(letra);
+		
+	}
+}

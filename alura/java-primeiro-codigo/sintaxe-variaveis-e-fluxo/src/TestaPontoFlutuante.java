@@ -1,0 +1,24 @@
+
+public class TestaPontoFlutuante {
+	
+	public static void main(String[] arg) {
+		
+		double salario = 1250.70;
+		System.out.println("Meu salário é R$" + salario);
+		
+		int divisao = 5 / 2; // aqui o ponto flutuante é ignorado por lidar com inteiros
+		System.out.println("Divisao de 5 por 2 truncada declarada como int: " + divisao); // a saída será 2
+		
+		double novaDivisao = 5 / 2; // retorna 2, uma vez que o compilador lê o código da direita para a esquerda
+		System.out.println("Divisão de 5 por 2 truncada declarando como double: " + novaDivisao); // o resultado é um double, mas foi truncado
+		
+		double divisaoCorreta = 5.0 / 2; // um dos operandos deve ser double para que a operação resulte num double que será atribuido à variável
+		System.out.println("Divisão exata de 5 por 2: " + divisaoCorreta);
+		
+		/* Se fizermos o seguinte:
+		 * int divisao = 5.0 / 2;
+		 * 
+		 * O programa não compila*/
+	}
+
+}

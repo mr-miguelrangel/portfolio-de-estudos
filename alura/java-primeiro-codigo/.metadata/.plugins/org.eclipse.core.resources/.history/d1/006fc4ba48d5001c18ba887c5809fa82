@@ -1,0 +1,13 @@
+// Nesse exercício opcional, o seu desafio é imprimir os fatoriais de 1 a 10!
+public class DeafioFatorial {
+	public static void main(String[] args) {
+		
+		int fatorial = 1;
+		
+		for(int i = 5; i >= 1; i--) {
+			fatorial *= i;
+		}
+		
+		System.out.println(fatorial);
+	}
+}
